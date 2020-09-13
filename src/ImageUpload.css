@@ -1,0 +1,38 @@
+.imageUpload {
+  /* display: flex;
+  flex-direction: column; */
+  width: 62%;
+  margin: 10px auto;
+}
+.imageUpload__progress {
+  width: 100%;
+  height: 5px;
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: none;
+}
+.imageUpload__input {
+  width: 100%;
+  padding: 5px 0;
+}
+.imageUpload__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageUpload__left {
+  flex: 1;
+}
+.imageUpload__right {
+  flex: 0;
+}
+
+@media (max-width: 600px) {
+  .imageUpload {
+    width: 92%;
+    margin: 10px auto;
+  }
+}
